@@ -14,6 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('hola', function () {
-    return "hola";
+
+Route::get('/led/{prendido}', function ($prendido) {
+    //logica guardar bd
+    return $prendido;
 });
