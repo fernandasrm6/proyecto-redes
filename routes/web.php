@@ -17,5 +17,6 @@ Route::get('/', function () {
 
 Route::get('/led/{prendido}', function ($prendido) {
     //logica guardar bd
-    return $prendido;
+    $num = rand(0,2);
+    return $num;
 });
