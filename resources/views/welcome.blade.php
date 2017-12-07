@@ -112,7 +112,6 @@ $(document).ready(function(){
 
   <button id="apagado" style="height: 80px; width: 160px">  Apagar ventilador </button>
 
-
   <button id="info" style="height: 80px; width: 160px">Mostrar temperatura y Humedad</button>
 
                 </div>
