@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/led/{prendido}', function ($prendido) {
-    //logica guardar bd
-    return $prendido;
+Route::get('/led/', function ($prendido) {
+
+    return 1;
 });
