@@ -23,7 +23,9 @@ Route::get('/led/', function () {
 });
 
 Route::get('/led/{led}', function ($led) {
-    $file = fopen((int)$led);
+    $file = fopen('archivo.txt', 'w');
+    fwrite($file,(int)$led )
 	fclose($file);
 
 });
+
