@@ -32,4 +32,8 @@ Route::get('/led/{led}', function ($led) {
 	fclose($file);
 
 });
+Route::get('/info/{temp}', function ($temp) {
+    return 1;
+
+});
 

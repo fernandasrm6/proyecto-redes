@@ -28,6 +28,14 @@ $(document).ready(function(){
         });
     });
 });
+<script>
+$(document).ready(function(){
+    $("#tempact").click(function(){
+        $.get("/info/", function(data){
+            alert(data);
+        });
+    });
+});
 </script>
         <!-- Styles -->
         <style>
@@ -90,8 +98,12 @@ $(document).ready(function(){
             <div class="content">
                 <div class="title m-b-md">
                  
-   <input type="text" read_only="read_only" id="form1" name="form1" value="<?php echo $row['nombre']; ?> >                
   
+    
+ <!--  <button type="button" onclick="alert('Hello World!')">Conocer Temperatura y Humedad actual</button> -->
+         
+  <button id="tempact">   Obtener temperatura y humedad actual </button>
+
   <button id="prendido">   Prender led </button>
 
   <button id="apagado">  Apagar led </button>
