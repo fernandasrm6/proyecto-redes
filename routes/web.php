@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/led/', function ($prendido) {
+Route::get('/led/', function () {
     return 1;
 });
