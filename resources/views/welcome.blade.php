@@ -13,7 +13,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
 $(document).ready(function(){
-    $("button").click(function(){
+    $("#prendido").click(function(){
         $.get("/led/1", function(data){
             alert("Data: " + data);
         });
@@ -83,6 +83,8 @@ $(document).ready(function(){
                  
                   
   
+  <button id="prendido">   Prender led </button>
+
   <button>  Prender led </button>
 
                 </div>
