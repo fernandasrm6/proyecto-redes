@@ -24,7 +24,7 @@ Route::get('/led/', function () {
 
 Route::post('/led/', function (Request $led) {
     $file = fopen("archivo.txt","w");
-    fwrite($file, $led->prendido)
+    fwrite($file, $led->prendido);
 	fclose($file);
 
 });
