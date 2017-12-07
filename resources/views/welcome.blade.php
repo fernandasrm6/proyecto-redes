@@ -20,7 +20,7 @@ $(document).ready(function(){
     });
 });
 </script>
- <script>
+<!--  <script>
 $(document).ready(function(){
     $("#apagado").click(function(){
         $.get("/led/0", function(data){
@@ -31,12 +31,12 @@ $(document).ready(function(){
 <script>
 $(document).ready(function(){
     $("#tempact").click(function(){
-        $.get("/info/", function(data){
+        $.get("/info/temp", function(data){
             alert(data);
         });
     });
 });
-</script>
+</script> -->
         <!-- Styles -->
         <style>
             html, body {
