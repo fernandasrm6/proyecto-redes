@@ -20,6 +20,15 @@ $(document).ready(function(){
     });
 });
 </script>
+ <script>
+$(document).ready(function(){
+    $("#apagado").click(function(){
+        $.get("/led/0", function(data){
+            alert("Data: " + data);
+        });
+    });
+});
+</script>
         <!-- Styles -->
         <style>
             html, body {
@@ -85,7 +94,7 @@ $(document).ready(function(){
   
   <button id="prendido">   Prender led </button>
 
-  <button>  Prender led </button>
+  <button id="apagado">  Apagar led </button>
 
                 </div>
 
