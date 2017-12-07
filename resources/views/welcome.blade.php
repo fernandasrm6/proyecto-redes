@@ -83,7 +83,7 @@ $(document).ready(function(){
                  
                   
   
-  <button value="Prender led">
+  <button>  Prender led </button>
 
                 </div>
 
