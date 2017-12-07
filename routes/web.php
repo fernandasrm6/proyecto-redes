@@ -16,6 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/led/', function ($prendido) {
-
     return 1;
 });
