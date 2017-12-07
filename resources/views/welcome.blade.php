@@ -70,7 +70,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                   Hola Fonsi :D
+                 
+                   <form action="/led/" method="POST">
+ 
+  <input type="text" name="prendido" value="1" hidden>
+  
+  <input type="submit" value="Prender led">
+</form> 
                 </div>
 
                 
