@@ -15,7 +15,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Route::get('/led/{prendido}', function ($prendido) {
+	if($prendido == "apagado")
+	{
+		return false;
+
+	}
     //logica guardar bd
     $num = rand(0,2);
     return $num;
