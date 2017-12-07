@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 
 
-Route::get('/led/', function () {
+Route::get('/led1/', function () {
 	$file = fopen('archivo.txt', 'r');
 	$data = fread($file, filesize($file));
 

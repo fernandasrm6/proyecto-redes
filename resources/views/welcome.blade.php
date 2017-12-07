@@ -15,7 +15,7 @@
 $(document).ready(function(){
     $("#prendido").click(function(){
         $.get("/led/1", function(data){
-            alert("Data: " + data);
+            alert("Se prendió");
         });
     });
 });
@@ -24,7 +24,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#apagado").click(function(){
         $.get("/led/0", function(data){
-            alert("Data: " + data);
+            alert("Se apagó");
         });
     });
 });
