@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Proyecto Redes</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -15,7 +15,7 @@
 $(document).ready(function(){
     $("#prendido").click(function(){
         $.get("/led/1", function(data){
-            alert("Se prendió");
+            alert("Ventilador Encendido");
         });
     });
 });
@@ -24,7 +24,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#apagado").click(function(){
         $.get("/led/0", function(data){
-            alert("Se apagó");
+            alert("Ventilador Apagado");
         });
     });
 });
@@ -90,7 +90,7 @@ $(document).ready(function(){
             }
 
             .m-b-md {
-                margin-bottom: 30px;
+                margin-bottom: 50px;
             }
         </style>
     </head>
@@ -103,10 +103,12 @@ $(document).ready(function(){
                  
                   
   
-  <button id="prendido">   Prender led </button>
+  <button id="prendido">  Encender ventilador </button>
 
-  <button id="apagado">  Apagar led </button>
-  <button id="info">Mostrar temperatura</button>
+  <button id="apagado">  Apagar ventilador </button>
+
+
+  <button id="info">Mostrar temperatura y humedad</button>
 
                 </div>
 
