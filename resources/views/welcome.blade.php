@@ -107,7 +107,6 @@ $(document).ready(function(){
 
 <br>
 <br>
-<br>
 
   <button id="prendido">  Encender ventilador </button>
 
