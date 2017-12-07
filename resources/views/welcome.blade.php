@@ -108,12 +108,12 @@ $(document).ready(function(){
 <br>
 <br>
 
-  <button id="prendido" style="height: 50px; width: 100px">>  Encender ventilador </button>
+  <button id="prendido" style="height: 80px; width: 160px">  Encender ventilador </button>
 
-  <button id="apagado">  Apagar ventilador </button>
+  <button id="apagado" style="height: 80px; width: 160px">  Apagar ventilador </button>
 
 
-  <button id="info">Mostrar temperatura y Humedad</button>
+  <button id="info" style="height: 80px; width: 160px">Mostrar temperatura y Humedad</button>
 
                 </div>
 
