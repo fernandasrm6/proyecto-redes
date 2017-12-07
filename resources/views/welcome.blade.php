@@ -28,7 +28,18 @@ $(document).ready(function(){
         });
     });
 });
+
+
 </script>
+<script>
+            $(document).ready(function(){
+                $("#info").click(function(){
+                    $.get("/temp/", function(data){
+                        alert(data);
+                    });
+                });
+            });
+        </script>
         <!-- Styles -->
         <style>
             html, body {
@@ -95,6 +106,7 @@ $(document).ready(function(){
   <button id="prendido">   Prender led </button>
 
   <button id="apagado">  Apagar led </button>
+  <button id="info">Mostrar temperatura</button>
 
                 </div>
 
