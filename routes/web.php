@@ -18,13 +18,16 @@ Route::get('/', function () {
 
 
 Route::get('/led/', function () {
-    return 1;
+	$file = fopen('archivo.txt', 'r');
+	$data = fread($file, filesize($file));
+
+    return $data;
 
 });
 
 Route::get('/led/{led}', function ($led) {
     $file = fopen('archivo.txt', 'w');
-    fwrite($file,(int)$led )
+    fwrite($file,(int)$led );
 	fclose($file);
 
 });
