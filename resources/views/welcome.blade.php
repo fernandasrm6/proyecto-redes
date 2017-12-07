@@ -76,7 +76,7 @@ $(document).ready(function(){
             }
 
             .title {
-                font-size: 84px;
+                font-size: 54px;
             }
 
             .links > a {
@@ -90,7 +90,7 @@ $(document).ready(function(){
             }
 
             .m-b-md {
-                margin-bottom: 50px;
+                margin-bottom: 40px;
             }
         </style>
     </head>
@@ -100,15 +100,15 @@ $(document).ready(function(){
 
             <div class="content">
                 <div class="title m-b-md">
-                 <h1> Controlador invernadero </ h1>
+                 
                   
-  
+  <h1> Controlador invernadero </ h1>
   <button id="prendido">  Encender ventilador </button>
 
   <button id="apagado">  Apagar ventilador </button>
 
 
-  <button id="info">Mostrar temperatura y humedad</button>
+  <button id="info">Mostrar temperatura y Humedad</button>
 
                 </div>
 
