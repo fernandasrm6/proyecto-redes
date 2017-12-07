@@ -10,6 +10,16 @@
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $.get("/led/1", function(data){
+            alert("Data: " + data);
+        });
+    });
+});
+</script>
         <!-- Styles -->
         <style>
             html, body {
