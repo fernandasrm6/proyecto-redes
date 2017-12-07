@@ -105,7 +105,9 @@ $(document).ready(function(){
                   
   <h1> Controlador invernadero </ h1>
 
-
+<br>
+<br>
+<br>
 
   <button id="prendido">  Encender ventilador </button>
 
