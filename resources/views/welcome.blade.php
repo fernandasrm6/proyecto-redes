@@ -100,7 +100,7 @@ $(document).ready(function(){
 
             <div class="content">
                 <div class="title m-b-md">
-                 
+                 <h1> Controlador invernadero </ h1>
                   
   
   <button id="prendido">  Encender ventilador </button>

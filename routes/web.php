@@ -23,6 +23,7 @@ Route::get('/led1/', function () {
 	fclose($file);
 
     return $data;
+    
 
 });
 
