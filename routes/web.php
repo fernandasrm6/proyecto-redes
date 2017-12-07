@@ -33,7 +33,7 @@ Route::get('/led/{led}', function ($led) {
 
 });
 Route::get('/info/{temp}', function ($temp) {
-    return 1;
+    return $temp;
 
 });
 
