@@ -28,7 +28,7 @@ $(document).ready(function(){
         });
     });
 });
-
+</script>
         <!-- Styles -->
         <style>
             html, body {
@@ -90,12 +90,8 @@ $(document).ready(function(){
             <div class="content">
                 <div class="title m-b-md">
                  
+                  
   
-    
- <!--  <button type="button" onclick="alert('Hello World!')">Conocer Temperatura y Humedad actual</button> -->
-         
-  <button id="tempact">   Obtener temperatura y humedad actual </button>
-
   <button id="prendido">   Prender led </button>
 
   <button id="apagado">  Apagar led </button>
