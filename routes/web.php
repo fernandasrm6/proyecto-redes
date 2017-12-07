@@ -33,7 +33,19 @@ Route::get('/led/{led}', function ($led) {
 
 });
 Route::get('/info/{temp}', function ($temp) {
-    return $temp;
+
+     $file = fopen('archivotem.txt', 'w');
+    fwrite($file,(int)$temp );
+	fclose($file);
 
 });
 
+
+Route::get('/temp/', function () {
+	$file = fopen('archivotem.txt', 'r');
+	$data = fgets($file);
+	fclose($file);
+
+    return $data;
+
+});
