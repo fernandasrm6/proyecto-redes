@@ -76,6 +76,7 @@ $(document).ready(function(){
             }
 
             .title {
+                color: #AACB30;
                 font-size: 54px;
             }
 
@@ -103,6 +104,9 @@ $(document).ready(function(){
                  
                   
   <h1> Controlador invernadero </ h1>
+
+
+
   <button id="prendido">  Encender ventilador </button>
 
   <button id="apagado">  Apagar ventilador </button>
